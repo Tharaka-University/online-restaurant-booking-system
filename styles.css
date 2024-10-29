@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #004080;
+    font-size: 24px;
+}
+
+header h2 {
+    color: #666666;
+    font-size: 16px;
+}
+
+h3, h4 {
+    color: #004080;
+    margin-top: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
