@@ -16,16 +16,15 @@ if ($conn->connect_error) {
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
-    $named_insured = $_POST['named_insured'];
-    $trading_as = $_POST['trading_as'];
-    $website = $_POST['website'];
-    $tax_status_abn = $_POST['tax_status_abn'];
-    $taxable = $_POST['taxable'];
-    $occupation = $_POST['occupation'];
-    $hours_of_operation = $_POST['hours_of_operation'];
-    $years_in_operation = $_POST['years_in_operation'];
-    $insurance_start = $_POST['insurance_start'];
-    $insurance_end = $_POST['insurance_end'];
+    $full_name = $_POST['name of client'];
+    $phone_number = $_POST['website'];
+    $food_drinks = $_POST['tax_status_abn'];
+    $email_address= $_POST['taxable'];
+    $number_of_guest = $_POST['occupation'];
+    $payment_information= $_POST['hours_of_operation'];
+    $date_and_time= $_POST['years_in_operation'];
+    $special_request = $_POST['insurance_start'];
+    $prerered_contact_method = $_POST['insurance_end'];
 
     // Checkbox values for yes/no questions
     $insurance_declined = isset($_POST['insurance_declined']) ? 1 : 0;

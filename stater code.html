@@ -15,13 +15,17 @@
         
         <section>
             <h4>Customers Details</h4>
-            <form>
-                <label>Name of client:</label> <input type="text"><br><br>
-                <label>Website:</label> <input type="text"><br><br>
-                <label>Food/drinks</label> <input type="text"> Taxable <input type="text"><br><br>
-                <label>Occupation:</label> <input type="text"><br><br>
-                <label>Hours of Accomondation:</label> <input type="text"><br><br>
-                <label>No. of clients to Accomondate:</label> <input type="text"><br><br>
+            <form action="database.php" method="POST">
+        
+                <label>Full name:</label> <input type="text"><br><br>
+                <label>Phone number:</label> <input type="text"><br><br>
+                <label>Food/drinks</label> <input type="text"><br><br>
+                <label>Email address:</label> <input type="text"><br><br>
+                <label>Number of Guests:</label> <input type="text"><br><br>
+                <label>Payment information:</label> <input type="text"><br><br>
+                <label>Date and Time</label> <input type="text"><br><br>
+                <label>Special Request</label> <input type="text"><br><br>
+                <label>Preferred Contact Method</label> <input type="text"><br><br>
                 
                 
                 <h4>Questions</h4>
@@ -53,6 +57,7 @@
                 
                 <h4>Claims History</h4>
                 <p>where did you hear about our restaurant and what compliment do you have. Your response will be highly valued.</p>
+                
                 <table>
                     <thead>
                         <tr>
@@ -69,6 +74,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <button type="submit"class="submit-button">Submit</button>
             </form>
         </section>
     </div>
